@@ -1,0 +1,43 @@
+/* Styles for the timeline circles (timeline-badge) */
+.timeline-badge {
+    /* Your styles for the circle here */
+    width: 35px; /* Adjust circle size as needed */
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff; /* Circle background color */
+    color: #fff; /* Circle text color */
+    text-align: center; /* Center the text within the circle */
+    line-height: 44px; /* Vertically center the text */
+    position: relative;
+  }
+  .item-center {
+     display: flex;
+     
+  }
+  .college {
+    white-space: pre-wrap;
+  }
+  /* Other styles for the timeline (e.g., colors, fonts, etc.) */
+  .timeline-panel {
+    /* Your styles for the timeline panel here */
+  }
+  
+  .timeline {
+    /* Styles for the timeline list */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .timeline li {
+    /* Styles for each timeline item (list item) */
+    display: flex;
+    align-items: flex-start; /* Align items at the top of each timeline item */
+    margin-bottom: 20px; /* Add space between timeline items */
+    position: relative;
+    padding-left: 30px; /* Create space for the circle and line */
+    font-size: 20px;
+  }
+  
+  /* Add other styles as needed */
+  
